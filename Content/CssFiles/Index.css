@@ -1,5 +1,5 @@
-@import "../Utilities/NavBar.css";
-@import "../Utilities/SocialMedia.css";
+@import "../../Utilities/NavBar.css";
+@import "../../Utilities/SocialMedia.css";
 
 html{
   min-width: 100%;
@@ -7,7 +7,7 @@ html{
 }
 body {
   position:fixed;
-  background: url('../Pictures/tahoe.jpg') no-repeat;
+  background: url('../../Pictures/Tahoe.jpg') no-repeat;
   background-size: cover;
   font-family: 'Century Gothic';
   color: white;
