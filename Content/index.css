@@ -1,0 +1,53 @@
+@import "../Utilities/NavBar.css";
+@import "../Utilities/SocialMedia.css";
+
+html{
+  min-width: 100%;
+  min-height: 100%;
+}
+body {
+  position:fixed;
+  background: url('../Pictures/tahoe.jpg') no-repeat;
+  background-size: cover;
+  font-family: 'Century Gothic';
+  color: white;
+  min-width: 100%;
+  min-height: 100%;
+  margin:0;
+  z-index: 1;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+#webpageTitle {
+  text-align: center;
+  min-width: 100%;
+  min-height: 100px;
+  height:0;
+  top: 0;
+  z-index: 18;
+  margin-top: 5px;
+  position: fixed;
+}
+
+#webpageTitle p {
+  min-width: 900px;
+  min-height: 85px;
+  font-size:75px;
+  color: black;
+  margin: 0;
+}
+
+/* #botToolBar {
+  background-color: black;
+  background-size: 40px;
+  width: 100%;
+  z-index: 18;
+} */
