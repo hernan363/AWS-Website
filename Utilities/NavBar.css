@@ -63,7 +63,7 @@
   padding: 12px 0; /* Some top and bottom padding */
   transition: all 0.3s ease; /* Add transition for hover effects */
   color: white; /* White text color */
-  font-size: 36px; /* Increased font size */
+  font-size: 28px; /* Increased font size */
 }
 .icon-bar div {
   width: 20%;
