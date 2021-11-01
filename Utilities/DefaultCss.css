@@ -1,14 +1,11 @@
-@import "../../Utilities/NavBar.css";
-@import "../../Utilities/SocialMedia.css";
-
 html{
   min-width: 100%;
   min-height: 100%;
 }
 
 body {
-  background: url('../../Pictures/Tahoe.jpg') no-repeat;
-  background-size: cover;
+  /* background: url('../../Pictures/Tahoe.jpg') no-repeat;
+  background-size: auto; */
   font-family: 'Century Gothic';
   color: white;
   min-width: 100%;
