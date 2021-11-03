@@ -54,7 +54,7 @@ body{
 }
 
 .icon-bar {
-  background-color: #143AB0; /* Dark-grey background */
+  background-color: #143AB0; /* General Atomics Blue background */
   overflow: auto; /* Overflow due to float */
   box-shadow: -2px 2px 4px 1.5px #888;
   margin: 7px 5px 5px 5px;
