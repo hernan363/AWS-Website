@@ -50,11 +50,16 @@
 #chapman a:hover{
   color: red;
 } */
+body{
+}
 
 .icon-bar {
-  width: 100%; /* Full-width */
   background-color: #143AB0; /* Dark-grey background */
   overflow: auto; /* Overflow due to float */
+  box-shadow: -2px 2px 4px 1.5px #888;
+  margin: 7px 5px 5px 5px;
+  /* top: 50%;
+  left: 50%; */
 }
 .icon-bar a {
   float: left; /* Float links side by side */
@@ -74,7 +79,7 @@
 }
 
 .icon-bar a:hover {
-  background-color: #90A5E3; /* Add a hover color */
+  color: #90A5E3; /* Add a hover color */
 }
 .social-media{
   float: right;
