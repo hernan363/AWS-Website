@@ -9,6 +9,8 @@
 
     <!-- Import JavaScript -->
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-latest.min.js"></script> -->
+
   </head>
 
   <body>
@@ -22,12 +24,20 @@
         $("#nav-bar").load("../Utilities/NavBar.html");
       });
     </script>
-    <section class="sidebar">
+    <section class="left-sidebar">
         <img src="../Pictures/GraduationPhoto.jfif" alt="fuck it broke"></img>
-        <span id="circle"></span>
-        <h1 style="display: inline-block; color: black;">Looking for a new Job</h1>
-        <!-- set the looking for a new job below the profile picture -->
-        <!-- <li>
+        <span>
+          <span id="circle"></span>
+          <h3 style= "display: inline-block; color: white;">Job Searching</h3>
+        </span>
+        <span class="fa fa-map-marker"id="location">
+          <h3 style="margin: 0px 5px; display: inline-block;">Irvine, California</h3>
+        </span>
+        <span class ="fa fa-book">
+          <h3>2 Years of Industry Exposure</h3>
+        </span>
+         <!-- set the looking for a new job below the profile picture -->
+         <!-- <li>
           <h1 id="job-status"></h1>
         </li>
 
@@ -35,8 +45,14 @@
           <p id="description"></p>
         </li>
         <li>
-        </li> -->
-      <!-- <img id="profile-picture"></img> -->
+        </li>
+      <img id="profile-picture"></img> -->
+    </section>
+    <section class="right-side">
+      <span>
+        <h3>Phone: (909) 436 - 6189</h3>
+        <h3>E-Mail: herna363@mail.chapman.edu</h3>
+      </span>
     </section>
   </body>
 </html
