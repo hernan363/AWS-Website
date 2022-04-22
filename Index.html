@@ -3,7 +3,7 @@
     <meta charset="utf-8">
     <title>David Hernandez</title>
     <!-- <link href="https://www.chapman.edu/_files/css/style_2013.css" rel="sytlesheet"$ -->
-    <link href="CssFiles/Index.css" rel="stylesheet" type="text/css"/>
+    <link href="Content/CssFiles/Index.css" rel="stylesheet" type="text/css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"
     http-equiv="refresh" content="5">
 
@@ -20,12 +20,12 @@
     <div id="nav-bar">
     </div>
     <script>
-      $(function(){
-        $("#nav-bar").load("../Utilities/NavBar.html");
-      });
+      $(document).ready($(function(){
+        $("#nav-bar").load("Utilities/NavBar.html");
+      }));
     </script>
     <section class="left-sidebar">
-        <img src="../Pictures/GraduationPhoto.jfif" alt="fuck it broke"></img>
+        <img src="Pictures/GraduationPhoto.jfif" alt="fuck it broke"></img>
         <span>
           <span id="circle"></span>
           <h3 style= "display: inline-block; color: white;">Job Searching</h3>
