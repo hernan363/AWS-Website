@@ -7,20 +7,41 @@ body{
 #home-tab-color {
   background-color: #717171;
 }
-section{
+/**section{
   background-color: #143AB0;
   border-radius: 20px;
   text-align:center;
   padding-bottom: 10px;
 
+} **/
+#main-content{
+  overflow: auto;
 }
-.left-sidebar {
+#main-content section{
+  width: 33%;
+  height: 100%;
+  float: left;
+}
+
+#main-content section div {
+  text-align:center;
+  padding-bottom: 10px;
+}
+.summary {
+}
+
+.border{
+  background-color: #143AB0;
+  border-radius: 20px;
+}
+
+#left-sidebar div{
   width: 275px;
   margin-left: 10px;
   float: left;
 }
 
-.left-sidebar img {
+#left-sidebar img {
   height: 250px;
   width: 250px;
   border-radius: 40px;
@@ -30,18 +51,23 @@ section{
   margin: 5px 0 10px 0;
 }
 
-.left-sidebar span {
+#left-sidebar span {
   display: inline-block;
 }
-.left-sidebar h3 {
+#left-sidebar h3 {
   display: inline-block;
 }
 
-.right-side {
-  display: inline-block;
-  float: right;
-  padding: 15px;
+#Title{
+  padding: 0 10px 10px 0;
 }
+#Title div {
+  text: 100px;
+}
+#right-side {
+display: inline-block;
+}
+
 
 #circle {
    width: 20px;
