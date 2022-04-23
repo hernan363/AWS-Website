@@ -2,7 +2,8 @@
 @import "../../Utilities/DefaultCss.css";
 
 body{
-  height: 2000px
+  height: 2000px;
+  background-color: #F0F0F0;
 }
 #home-tab-color {
   background-color: #717171;
@@ -18,7 +19,15 @@ body{
   background-color: #143AB0;
   border-radius: 20px;
 }
+#summary{
+  /* width: 80% */
+}
 
+#summary p{
+  margin: 5px;
+  text-align: center;
+  padding: 5px;
+}
 #main-content{
   overflow: auto;
 }
