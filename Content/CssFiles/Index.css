@@ -5,6 +5,19 @@
 body{
   background-color: #F0F0F0;
 }
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h4{
+  font-size: 19px;
+}
+
 #home-tab-color {
   background-color: #717171;
 }
@@ -41,10 +54,11 @@ body{
   padding-bottom: 10px;
 }
 #text-paragraph {
-  width: 70%;
-  padding: 5px;
+  width: 60%;
+  padding: 50px 0px 0px 0px;
   margin-left: 20px;
 }
+
 #left-sidebar {
   width: 20%;
 }
