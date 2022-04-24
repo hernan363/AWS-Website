@@ -2,22 +2,6 @@
 @import "../../Utilities/DefaultCss.css";
 @import "../../Utilities/Footer.css";
 
-body{
-  background-color: #F0F0F0;
-}
-
-h1 {
-  font-size: 50px;
-}
-
-h2 {
-  font-size: 30px;
-}
-
-h4{
-  font-size: 19px;
-}
-
 #home-tab-color {
   background-color: #717171;
 }
