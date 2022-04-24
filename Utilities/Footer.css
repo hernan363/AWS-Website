@@ -1,0 +1,14 @@
+/* Footer */
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: #143AB0;
+  text-align: center;
+  width: 100%;
+  padding: 20px 0px;
+}
+#footer p{
+  width: 33%;
+  display: inline-block;
+}

@@ -32,7 +32,6 @@ body{
   overflow: auto;
 }
 #main-content section{
-  width: 33%;
   height: 100%;
   float: left;
 }
@@ -41,7 +40,13 @@ body{
   text-align:center;
   padding-bottom: 10px;
 }
-.summary {
+#text-paragraph {
+  width: 70%;
+  padding: 5px;
+  margin-left: 20px;
+}
+#left-sidebar {
+  width: 20%;
 }
 
 #left-sidebar div{
@@ -77,7 +82,6 @@ body{
 display: inline-block;
 }
 
-
 #circle {
    width: 20px;
    height: 20px;
@@ -87,6 +91,7 @@ display: inline-block;
    animation: glowShadow 1.5s linear infinite alternate;
    /* animation: glowImage 1.5s linear infinite alternate; */
  }
+
  @keyframes glowImage{
   to {
     -webkit-filter: brightness(2);
