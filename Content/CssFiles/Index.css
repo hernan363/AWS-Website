@@ -1,5 +1,6 @@
 @import "../../Utilities/NavBar.css";
 @import "../../Utilities/DefaultCss.css";
+@import "../../Utilities/Footer.css";
 
 body{
   height: 2000px;
