@@ -4,16 +4,46 @@
 
 section{
   height: 600px;
+  margin-bottom: 10px;
 }
 
-#GA-About {
+#GA-tab {
+  background-color: #717171;
+}
+
+section div{
+  width: 1100px;
+  height: 90%;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+li {
+  font-size: 20px;
+}
+
+#GA-About-Image{
   background-image: url("../../Pictures/GeneralAtomicsAbout.jpg");
 }
-#GA-Tools{
-  background-image: url("../../Pictures/UKProtector.jpg");
-
+#GA-About-Image ol {
+  font-size: 25px;
+  position: absolute;
+  right: 5px;
+  top: 10px;
 }
-#GA-Lessons{
-  background-image: url("../../Pictures/Block50.jpg");
+#GA-Tools-Image{
+  background-image: url("../../Pictures/UKProtector.jpg");
+}
 
+#GA-Tools-Image ol{
+  position: absolute;
+  left: 50px;
+  top: 50%;
+}
+
+#GA-Lessons-Image{
+  background-image: url("../../Pictures/Block50.jpg");
+  text-align: right;
+  background-size: cover;
 }
