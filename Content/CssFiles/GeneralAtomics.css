@@ -1,3 +1,7 @@
+@import "../../Utilities/NavBar.css";
+@import "../../Utilities/DefaultCss.css";
+@import "../../Utilities/Footer.css";
+
 section{
   height: 600px;
 }

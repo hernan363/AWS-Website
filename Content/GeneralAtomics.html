@@ -9,15 +9,19 @@
 
     <!-- links -->
     <link href="./Content/CssFiles/Index.css" rel="stylesheet" type="text/css"/>
-    <link rel = "icon" type = "image/png" href = "./Pictures/DH.png"/>
+    <link rel = "icon" type = "image/png" href = "../Pictures/DH.png"/>
 
     <!-- Import JavaScript -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-latest.js"></script>
   </head>
 
   <body>
+    <!-- Nav Bar -->
+    <div id="nav-bar">
+    </div>
+
     <section id="GA-About">
-      
+
     </section>
     <section id="GA-Tools">
 
@@ -26,5 +30,15 @@
 
     </section>
 
+    <!-- Footer -->
+    <div id="footer-bar">
+    </div>
+
+    <script>
+      $(document).ready($(function(){
+        $("#nav-bar").load("https://hernan363.github.io/AWS-Website/Utilities/NavBar.html");
+        $("#footer-bar").load("https://hernan363.github.io/AWS-Website/Utilities/Footer.html");
+      }));
+    </script>
   </body>
 </html>
